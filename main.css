@@ -3,12 +3,13 @@ main {
   align-items: flex;
   justify-content: flex;
 }
+
 .popup {
   padding: 20px;
   background-color: rgba(100, 100, 100, 0.9);
   color: white;
   font-weight: 100;
-  font-size: 14px;
+  font-size: 18px;
   position: absolute;
   width: 800px;
   top: 50%;
