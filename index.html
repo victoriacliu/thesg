@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <div id="top" class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h2>Map of the United States of America</h2>
+            <br />
+            <img
+              src="unitedstates.jpg"
+              alt="unitedstates"
+              usemap="#unitedstates"
+            />
+            <map name="unitedstates">
+              <area
+                shape="poly"
+                coords="99,164,169,183,155,252,229,363,237,380,226,387,220,402,219,415,173,407,170,393,149,370,119,351,124,337,104,301,100,284,98,264,87,238,80,216,84,197,95,181"
+                href= #california
+              />
+              <area
+                shape="poly"
+                coords="253,31,269,35,265,58,268,73,285,95,278,119,288,121,290,138,298,155,323,151,331,161,319,214,221,192,233,147,228,136,246,113,239,105,241,93"
+                href= #idaho
+              />
+              <area
+                shape="poly"
+                coords="126,71,144,79,145,90,161,91,172,97,184,97,205,95,239,104,246,113,227,136,231,147,219,193,98,164,97,143,116,102"
+                href= #oregon
+              />
+              <area
+                shape="poly"
+                coords="131,18,131,36,131,56,127,71,144,80,147,90,162,91,172,98,185,97,206,95,239,105,240,93,253,31,164,10,164,29,161,49,148,53,155,32"
+                href= #washington
+              />
+</map>
+
+<div class="popup" id="california">
+  <p><h2>List of California Bases</h2>
+  <li><a href = "States\Oregon\BaseA.html">a</a></li>
+  <li>b</li>
+  <li>c</li>
+</p>
+  <a class="close" href="#">X</a>
+</div>
+
+<div class="popup" id="idaho">
+  <p><h2>List of Idaho Bases</h2>
+  <li>a</li>
+  <li><a href = "States\Washington\BaseB.html">b</a></li>
+  <li>c</li>
+</p>
+  <a class="close" href="#">X</a>
+</div>
+
+<div class="popup" id="oregon">
+  <p><h2>List of Oregon Bases</h2>
+  <li><a href = "States\Oregon\BaseA.html">a</a></li>
+  <li>b</li>
+  <li>c</li>
+</p>
+  <a class="close" href="#">X</a>
+</div>
+
+<div class="popup" id="washington">
+  <p><h2>List of Washington Bases</h2>
+  <li>a</li>
+  <li><a href = "States\Washington\BaseB.html">b</a></li>
+  <li>c</li>
+</p>
+  <a class="close" href="#">X</a>
+</div>
+
+
+
+</head>
+</html>
